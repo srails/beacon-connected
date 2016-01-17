@@ -77,9 +77,9 @@ class AppComponent extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <Showcase headline="Coffee time" image={hotdrink}>
-                It's monday morning and it's time for that pick me up from the coffee shop next to the office. As I approach the store my phone
-                vibrates and displays a message from <BrandName />. It asks do I want my usual order to which I greatfuly accept and purchase
-                all from my phone. I take a seat and sit back and watch the ever expanding queue and wait for butler to prompt me when my order is ready.
+                Coffee. The first port of call Monday through Friday. I don’t know about you but I am a creature of habit and tend to go to the same cafes near the office. Seems we all have the same idea so i wait in line to place my order. That is now a thing of the past with butler. 
+                As I approach the cafe each morning butler asks if i would like to place my usual order. I accept and pay for my coffee with the push of a button.
+                 I take a seat and sit back and wait for butler to prompt me when my order is ready.
               </Showcase>
             </div>
             <div className="col-md-4">
