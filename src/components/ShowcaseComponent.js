@@ -6,10 +6,17 @@ import 'styles//Showcase.less';
 
 class ShowcaseComponent extends React.Component {
 
-
-
   render() {
 
+  	let fontSize = this.props.fontSize
+
+  	fontSize ? undefined : fontSize = '11pt';
+
+  	console.log('Font size === '+fontSize);
+
+  	var desStyle = {
+		  fontSize: fontSize
+		};
 
     return (
       <div className="showcase-component">

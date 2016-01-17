@@ -38,8 +38,12 @@ class AppComponent extends React.Component {
 
         <div className="jumbotron">
           <div className="container">
-            <h1 className="small">Virtual engagement at the right place at the right time</h1>
-            <p>Introducing your personal assistant <BrandName />. An iOS and Android application for the users. A platform for merchants to personally engage with their customers.</p>
+            <h1 className="small">
+            	Virtual engagement at the right place and the right time
+            </h1>
+            <p>
+            	Meet your personal assistant butler. An iOS and Android application designed for users’ ease. A platform for merchants to personally engage with their customers.
+            </p>
           </div>
         </div>
 
@@ -47,8 +51,8 @@ class AppComponent extends React.Component {
           <div className="row">
             <div className="col-md-12">
               <Showcase styleProp={descripStyle}>
-                We are creatures of habit, Doing repeditive daily tasks, Imagine if our smart phone was aware of are location and situation and could engage 
-                with us helping us make purcahses, push meaningful data and real-time offers.
+                As creatures of habit, we do the same daily tasks over and over. Now, imagine if our smart phones could engage us and fulfil 
+                our needs? <BrandName /> takes the hassle out of daily tasks helping us to make purchases by pushing meaningful data and real-time offers that interest us.
               </Showcase>
             </div>
           </div>
@@ -58,12 +62,12 @@ class AppComponent extends React.Component {
 					<div className="row">
 					  <div className="col-md-6">
 					    <Showcase headline="Consumer Application" image={phone}>
-					      A proximity aware mobile application which understands what you want depending on your location
+					      A proximity aware mobile application that understands what offers interest you based on your location.
 					    </Showcase>
 					  </div>
 					  <div className="col-md-6">
 					    <Showcase headline="Merchant Application" image={computer}>
-					      An intutive platform that allows merchants to upload products and offers for which they want to enage with <BrandName /> users
+					      An intuitive platform that allows merchants to display their products and promotions for the benefit of <BrandName /> users.
 					    </Showcase>
 					  </div>
 					</div>
@@ -80,15 +84,14 @@ class AppComponent extends React.Component {
             </div>
             <div className="col-md-4">
               <Showcase headline="Movie time" image={popcorn}>
-                As I walk into my local move theatre <BrandName /> engages with me, It displays the combo meal deals I enjoy and the
-                current offers I accept and order my usual without queing.
+                As I walk into my local movie theatre <BrandName /> engages with me. It displays the combo meal deals I enjoy and the
+                current offers. I accept and order my usual without queing.
               </Showcase>
             </div>
             <div className="col-md-4">
               <Showcase headline="Sale time" image={sale}>
-                As a merchant I want to promote current offers to customers in the vacinity. Sign flippers are annoying and posters are just
-                not meaningful enough to individuals. I upload my current offers to <BrandName /> and clients who have an interest in certain 
-                items will recieve notifications.
+                As a merchant I want to let my customers know of all my current offers. Sign flippers are annoying and posters are too generic. I upload my current offers to <BrandName /> 
+                and clients who have an interest in thoseitems will recieve notifications when they enter my store.
               </Showcase>
             </div>
           </div>
@@ -108,7 +111,7 @@ class AppComponent extends React.Component {
             </div>
             <div className="col-md-4">
               <Showcase headline="Incentives" image={loyalty}>
-                Earn incentives on our loyalty program every time you use <BrandName />. Even with a merchant that does not offer one!
+                Earn incentives on our loyalty program every time you ask <BrandName /> to make a purchase.
               </Showcase>
             </div>
           </div>
@@ -128,7 +131,7 @@ class AppComponent extends React.Component {
             </div>
             <div className="col-md-4">
               <Showcase headline="Loyalty program" image={savings}>
-                Customers purchasing from you through <BrandName /> will receive incentives through our program. Save the environment, and on overheads by not printing loyalty cards!
+                Customers asking <BrandName /> to purchase from your store  receive incentives through our program. Save the environment and on overheads without the need for loyalty cards!
               </Showcase>
             </div>
           </div>
