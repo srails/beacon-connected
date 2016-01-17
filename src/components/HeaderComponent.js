@@ -6,14 +6,16 @@ import 'styles//Header.less';
 
 import BrandName from './BrandNameComponent';
 
-import logo from '../images/servant-logo.png';
+import logo from '../images/servant.png';
 
 class HeaderComponent extends React.Component {
   render() {
     return (
       <div className="header-component">
         <div className="container">
-          <img className="logo" src={ logo } alt="Connected" /> <BrandName marginHorizontal />
+          {/*<img className="logo" src={ logo } alt="Butler" /> <BrandName marginHorizontal />*/}
+          <img className="logo" src="https://rawgit.com/srails/beacon-connected/blob/master/src/images/servant.png" alt="Butler" /> <BrandName marginHorizontal />
+
         </div>
       </div>
     );
