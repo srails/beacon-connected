@@ -5,12 +5,17 @@ import React from 'react';
 import 'styles//Showcase.less';
 
 class ShowcaseComponent extends React.Component {
+
+
+
   render() {
+
+
     return (
       <div className="showcase-component">
         <div className="image"><img src={ this.props.image } /></div>
         <div className="headline">{ this.props.headline }</div>
-        <div className="description">
+        <div className="description" style={this.props.styleProp}>
           { this.props.children }
         </div>
       </div>

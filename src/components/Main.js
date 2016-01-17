@@ -16,18 +16,83 @@ import relationship from '../images/group44.png';
 import marketing from '../images/businessman259.png';
 import savings from '../images/coin3.png';
 
+import phone from '../images/mobile-phone15.png';
+import computer from '../images/computer186.png';
+
+
+import popcorn from '../images/popcorn6.png';
+import sale from '../images/sale21.png';
+import hotdrink from '../images/hotdrink2.png';
+
+
 class AppComponent extends React.Component {
   render() {
+
+  	let descripStyle = {
+  		fontSize:'14pt'
+  	};
+
     return (
       <div className="index">
         <Header />
 
         <div className="jumbotron">
           <div className="container">
-            <h1 className="small">Improving your daily routine</h1>
+            <h1 className="small">Virtual engagement at the right place at the right time</h1>
             <p>Introducing your personal assistant <BrandName />. An iOS and Android application for the users. A platform for merchants to personally engage with their customers.</p>
           </div>
         </div>
+
+         <Section header="Making life a little easier and rewarding">
+          <div className="row">
+            <div className="col-md-12">
+              <Showcase styleProp={descripStyle}>
+                We are creatures of habit, Doing repeditive daily tasks, Imagine if our smart phone was aware of are location and situation and could engage 
+                with us helping us make purcahses, push meaningful data and real-time offers.
+              </Showcase>
+            </div>
+          </div>
+        </Section>
+      
+				<Section header="What is butler">
+					<div className="row">
+					  <div className="col-md-6">
+					    <Showcase headline="Mobile Application" image={phone}>
+					      A proximity aware mobile application which understands what you want depending on your location
+					    </Showcase>
+					  </div>
+					  <div className="col-md-6">
+					    <Showcase headline="Merchant Application" image={computer}>
+					      An intutive platform that allows merchants to upload products and offers for which they want to enage with <BrandName /> users
+					    </Showcase>
+					  </div>
+					</div>
+				</Section>
+
+				<Section header="Use Case">
+          <div className="row">
+            <div className="col-md-4">
+              <Showcase headline="Coffee time" image={hotdrink}>
+                It's monday morning and it's time for that pick me up from the coffee shop next to the office. As I approach the store my phone
+                vibrates and displays a message from <BrandName />. It asks do I want my usual order to which I greatfuly accept and purchase
+                all from my phone. I take a seat and sit back and watch the ever expanding queue and wait for butler to prompt me when my order is ready.
+              </Showcase>
+            </div>
+            <div className="col-md-4">
+              <Showcase headline="Movie time" image={popcorn}>
+                As I walk into my local move theatre <BrandName /> engages with me, It displays the combo meal deals I enjoy and the
+                current offers I accept and order my usual without queing.
+              </Showcase>
+            </div>
+            <div className="col-md-4">
+              <Showcase headline="Sale time" image={sale}>
+                As a merchant I want to promote current offers to customers in the vacinity. Sign flippers are annoying and posters are just
+                not meaningful enough to individuals. I upload my current offers to <BrandName /> and clients who have an interest in certain 
+                items will recieve notifications.
+              </Showcase>
+            </div>
+          </div>
+        </Section>
 
         <Section header="Users">
           <div className="row">

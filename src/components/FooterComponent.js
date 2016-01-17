@@ -10,7 +10,7 @@ class FooterComponent extends React.Component {
       <div className="footer-component">
         <hr/>
         <div className="container">
-          <span className="fine-print">&copy; connected</span>
+          <span className="fine-print">&copy; butler</span>
         </div>
       </div>
     );

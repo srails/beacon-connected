@@ -10,7 +10,7 @@ class BrandNameComponent extends React.Component {
 
     return (
       <span className="brandname-component" style={margin}>
-        connected
+        butler
       </span>
     );
   }
