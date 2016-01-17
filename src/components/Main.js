@@ -57,7 +57,7 @@ class AppComponent extends React.Component {
 				<Section header="What is butler">
 					<div className="row">
 					  <div className="col-md-6">
-					    <Showcase headline="Mobile Application" image={phone}>
+					    <Showcase headline="Consumer Application" image={phone}>
 					      A proximity aware mobile application which understands what you want depending on your location
 					    </Showcase>
 					  </div>
